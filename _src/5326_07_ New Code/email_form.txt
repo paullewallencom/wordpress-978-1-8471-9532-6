@@ -1,0 +1,10 @@
+<form action="http://www.feedburner.com/fb/a/emailverify" method="post" target="popupwindow" onsubmit="window.open('http://www.feedburner.com/fb/a/emailverifySubmit?feedId=1872312', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+<p style="color: #DF5E37; font-size: 12px; font-weight:bold;">To receive our main feed by email, enter your email address:</p>
+<input type="text" name="email" id="s"/>
+<input type="hidden" value="http://feeds.feedburner.com/~e?ffid=1872312" name="url"/>
+<input type="hidden" value="ChilliGuru" name="title"/>
+<input type="hidden" name="loc" value="en_US"/>
+<input type="submit" value="Go" name="submit" id="searchsubmit"/>
+</form>
+<p style="color: #DF5E37; font-size: 12px; font-weight:bold;">You will be taken to the FeedBurner website (in a pop-up) to complete your subscription</p>
+<p></br></p>

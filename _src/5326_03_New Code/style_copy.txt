@@ -1,0 +1,107 @@
+/*
+THEME NAME: ChilliGuru
+THEME URI: http://blog.chilliguru.com
+DESCRIPTION: A spicy theme for the ChilliGuru blog
+TAGS: widgets, sandbox, microformats, hcard, hatom, xoxo
+VERSION: 1.0
+AUTHOR: Paul Thewlis
+AUTHOR URI: http://blog.paulthewlis.com
+TEMPLATE: sandbox
+*/
+
+
+/* The Page Layout */
+div#wrapper {width: 850px; margin-left: auto; margin-right: auto;position: relative;}
+div#container {float: left;width: 100%;}
+div#content {margin: 0 430px 0 0;}
+div.sidebar {float: left;overflow: hidden;width: 180px;}
+div#primary {margin: 0 0 0 -400px;}
+div#secondary {margin: 0 0 0 -200px;}
+div#footer {clear: left;width: 100%}
+
+
+/* Colors and Font */
+body {font-family:Arial, Helvetica, sans-serif;background-color:#F8DC9E;}
+
+
+/* The Header */
+div#header{text-align:left;margin-bottom:1em; padding-top:6.5em;height: 120px;background:#F8DC9E url('images/background.jpg') no-repeat center;}
+div#header h1{font-size: 46px;text-decoration: none;color: #800000;font-weight:bold;letter-spacing:-2px;line-height:36px;margin:0 5px 0 0; }
+div#header h1 a{font-size: 46px;text-decoration: none;color: #800000;font-weight:bold;letter-spacing:-2px;line-height:36px;margin:0 5px 0 0;}
+#header h1 a:hover{color: #F5AD61;}
+div#header div#blog-description{font-size:44px;color:#F5AD61;font-weight: bold;letter-spacing:-2px;line-height:46px; }
+
+
+/* The Menu */
+div#access div.skip-link{padding: 0; position: absolute; right: 0; text-align: right; top: 0; border-bottom: 1px dotted #F5AD61;}
+div#access a{color:#DF5E37;text-decoration: none; }
+div#menu{font-size:0.9em;height:1.5em;padding-top:0.3em;background:#F8DC9E;width:100%;border-bottom: 1px dotted #F5AD61;position: absolute; top: 1.5em}
+div#menu ul a{font-weight:700;text-decoration:none;}
+div#menu ul,div#menu ul ul,div#menu ul li{list-style:none;margin:0;padding:0;}
+div#menu ul li{float:left;}
+div#menu ul li a{background:#F8DC9E;padding-right:50px;font-size:18px;}
+div#menu ul ul{display:none;}
+div#menu ul ul li{float:none;}
+div#menu ul ul li a{margin:0;padding:0;}
+div#menu ul li:hover ul{display:block;font-size:0.9em;padding-top:0.5em;position:absolute;}
+div#menu ul li:hover ul li a{background:#f5f5f5;border:none;display:block;padding:0.1em;width:10em;}
+
+
+/* The Main Content Area */
+div.hentry{border-bottom: 1px solid #F5AD61; padding: 0 0 20px 0; margin: 10px 0 60px 0:}
+.entry-title{clear:both;background-image:url(images/redchilli.jpg); background-repeat: no-repeat;line-height:38px; margin:10px 0 0 0;}
+h2.entry-title{font-size: 20px; padding:0  0 0 75px;}
+h3.entry-title{font-size: 20px; padding:0  0 0 75px;}
+.entry-date{padding: 0 0 0 75px; font-size: 14px;font-weight: bold;color: #F5AD61;display: inline;}
+
+
+.page-link{color: #800000;font-size: 14px;line-height: 20px;padding-top:10px;}
+.entry-meta{color: #800000;font-size: 12px;line-height: 20px;padding-top:10px;}
+.entry-meta .author{background: url(images/author.gif) 0 0 no-repeat;padding-left:18px;}
+.entry-meta .cat-links{background: url(images/category.png) 0 0 no-repeat;padding-left: 16px;}
+.entry-meta .edit-link{background: url(images/edit.png) 0 0 no-repeat;padding-left: 16px;}
+.entry-meta .comments-link{background: url(images/comment.png) 0 0 no-repeat;padding-left: 16px;}
+
+
+div#container,div.sidebar{margin-top:0;}
+div#content p{font-size: 14px;}
+div#content a{color: #DF5E37;text-decoration: none;border-bottom: 1px dotted #F5AD61;}
+div#content h2{color: #DF5E37;}
+div#nav-above,div#nav-below{width:100%;height:1em;}
+div#nav-above{margin-bottom:1em;}
+div#nav-below{margin-top:1em;}
+.alignleft,div.nav-previous{float: left;}
+.alignright,div.nav-next{float: right;}
+form#commentform .form-label{margin:1em 0 0;}
+form#commentform span.required{background:#F8DC9E;color:red;}
+form#commentform,form#commentform p{padding:0;}
+input#author,input#email,input#url{width:50%;}
+input#author,input#email,input#url,textarea#comment{padding:0.2em;}
+div.comments ol li{margin:0 0 3.5em;}
+textarea#comment{height:13em;margin:0 0 0.5em;overflow:auto;width:66%;}
+
+
+/* The Sidebars */
+div.sidebar div,div.sidebar h3,div.sidebar ul,div.sidebar li{margin:0;padding:0;}
+div.sidebar h3{font-size: 16px;color: #DF5E37;font-weight: bold;margin: 0 0 8px 0;border-bottom: 1px solid #F5AD61;}
+div.sidebar li{list-style:none;margin:0 0 1em;}
+div.sidebar li form{margin:0.2em 0 0;padding:0;}
+div.sidebar ul ul{margin:0 0 0 1em;}
+div.sidebar ul ul a{color: #DF5E37;text-decoration: none;border-bottom: 1px dotted #F5AD61;}
+div.sidebar ul ul li{list-style:none;margin:0;}
+div.sidebar ul ul ul{margin:0 0 0 0.5em;}
+div.sidebar ul ul ul li{list-style:none;}
+
+
+li#rss-links h3 { background:url(images/feed.png);background-repeat:no-repeat;padding-left:20px; }
+
+
+div.sidebar input#s{width: 100px;border: 1px solid #F5AD61;color: #800000;}
+div.sidebar input#s:focus,div.sidebar input#s:hover{border: 1px solid #DF5E37;}
+input#searchsubmit{background: #F5AD61;border: 1px solid #DF5E37;padding: 0 0.4em 0 0.4em;margin-left: 0.4em;color: #DF5E37;font-weight: bold;}
+input#searchsubmit:focus, input#searchsubmit:hover{background: #800000;border: 1px solid #F5AD61;color: #F5AD61;font-weight: bold;}
+
+
+/* The Footer */
+div#footer{margin:30px 0 0 0;text-align:right;border-top: 1px solid #F5AD61;padding: 10px 0 0 0;color: #000;font-size: 10px;}
+div#footer a{color: #DF5E37;text-decoration: none;border-bottom: 2px dotted #DF5E37;}
